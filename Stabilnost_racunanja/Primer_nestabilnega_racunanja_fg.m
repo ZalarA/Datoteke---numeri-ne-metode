@@ -1,8 +1,8 @@
 disp(sprintf(['Raèunamo vrednost funkcije x*(koren(x+1)-koren(x)) na dva\n',... 
         'analitièno enakovredna naèina:\n']))
 
-disp(sprintf('f(x)=x*(koren(x+1)-koren(x)\n'))
-disp(sprintf('g(x)=x/(koren(x+1)+koren(x)\n'))
+disp(sprintf('f(x)=x*(koren(x+1)-koren(x))\n'))
+disp(sprintf('g(x)=x/(koren(x+1)+koren(x))\n'))
 pause
 
 f=inline('x*(sqrt(x+1)-sqrt(x))');

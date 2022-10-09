@@ -20,8 +20,9 @@ disp(sprintf('Preverimo, ali je rezultat res 0.\n'))
 disp(sprintf('x2^2+2*a*x2+b= %1.15e \n', x2^2+2*a*x2+b))
 pause
 
-disp(sprintf('Racunamo še prek stabilne formule x2=-b/(A+sqrt(A^2-b)).\n'))
-x2=vpa(-b/(A+sqrt(A^2-b)),52);
+disp(sprintf('Racunamo še prek stabilne formule x2=-b/(a+sqrt(a^2-b)).\n'))
+x2=vpa(-b/(a+sqrt(a^2-b)),52);
+pause
 disp(sprintf('Dobimo x2=b/(a+sqrt(a^2+b))= %1.15e \n', x2))
 pause
 
