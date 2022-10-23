@@ -3,7 +3,7 @@
 
 fprintf(['Iscemo ekstreme funkcije\n'...
         ' f(x(1),x(2))=(x(1)^2+1)^2+(x(2)^2+1)^2+(x(1)+x(2)+1)^2\n'...
-        's kombinacijo gradientnega spusta in Broydenove metode.\n\n'
+        'z gradientnim spustom.\n\n'
         ])
 
 f=inline('[(x(1)^2+1)^2+(x(2)^2+1)^2+(x(1)+x(2)+1)^2]');
